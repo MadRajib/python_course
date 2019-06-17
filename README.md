@@ -20,3 +20,10 @@
   72620
 	
   ```
+  	b.Using jupyter notebook
+	
+	install jupyter
+```
+$ python3 -m pip install --upgrade pip
+$ python -m pip install jupyter
+```
