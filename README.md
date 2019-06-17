@@ -18,12 +18,13 @@
   2.5
   >>> 5* 14524
   72620
-	
   ```
+  
+  
   	b.Using jupyter notebook
 	
 	install jupyter
-```
+```python
 $ python3 -m pip install --upgrade pip
 $ python -m pip install jupyter
 ```
