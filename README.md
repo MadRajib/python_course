@@ -1,4 +1,4 @@
 # python_course
-class 1 :
-  install jupyter 
-  class 1 notebook and pdf
+__class 1 :__
+> 1.install and run jupyter<br>
+> 2.Notes and pdf
