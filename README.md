@@ -8,3 +8,9 @@ __class 1 :__
 __class 2 :__
 > 1. built in functions<br>
 > 2. Notes
+
+__function :__
+> 1. class practice code snippets<br>
+
+__coprehnsion :__
+> 1. set and dictionaries comprehensions.<br>
