@@ -8,7 +8,8 @@
 ## 1. Read the inbuilt function for:
     help() and dir() functions.
 
-## 2. Go to the class 2 file.
+## 2. Study the class 2 part 1 .
     inbuilt functions, will have All the new inbuilt function that we will come across.
+## 3. Study the class 2 part 2 for Strings
 
-## 3. Try the examples yourself in the jupyter.
+## 4. Try the examples yourself in the jupyter.
