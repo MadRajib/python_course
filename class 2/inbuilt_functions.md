@@ -147,3 +147,67 @@ With three arguments, return a new type object.
 * `bases` : itemizes the base classes and becomes the `__bases__` attribute;
 * `dict`  : is the namespace containing definitions for class body and is copied to a standard dictionary to become the `__dict__` attribute.
 
+## 4. id(Object)
+
+Return the “identity” of an object. This is an integer which is guaranteed to be unique and constant for this object during its lifetime. 
+```python
+>>> a = 1324
+>>> id(a)
+139964553717776
+>>> b = "sdasd"
+>>> id(b)
+139964553458664
+```
+Two objects with non-overlapping lifetimes may have the same id() value.
+```python
+>>> b = "sdasd"
+>>> id(b)
+139964553458664
+>>> c = b
+>>> id(c)
+139964553458664
+```
+## 5. print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+Print `objects` to the text stream `file`(e.i sys.stdout),
+
+separated by `sep` and followed by `end`(e.i new line). 
+
+`flush` - If True, the stream is forcibly flushed. `Default value: False`
+
+sep, end, file and flush, if present, must be given as keyword arguments. e.i
+```python
+#  Wrong 
+>>> print("hello","world","#",";",sys.stdout,False)
+# Correct way
+>>> import sys
+>>> print("hello","world",sep="#",end=";",file=sys.stdout,flush=False)
+
+hello#world;>>> 
+```
+`*object` means we can print many objects at the same time!
+```python
+>>> print(11,"hello world",7.9)
+11 hello world 7.9
+# here default separator is space.
+
+# we can use our own separator.
+>>> print(11,"hello world",7.9,sep="::::")
+11::::hello world::::7.9
+```
+`print()` can be used to write to a file:
+```python
+>>> sourceFile = open('python.txt', 'w')
+>>> print('Pretty cool, huh!', file = sourceFile)
+>>> sourceFile.close()
+# This program tries to open the python.txt in writing mode. If this file doesn't exist, python.txt file is created and opened in writing mode.
+```
+## 6. ord(c)
+Given a string representing one Unicode character, return an integer representing the Unicode code point of that character.
+```python
+>>> ord(a)
+97
+>>> ord('$')
+36
+```
+This is the inverse of `chr()`.
+
