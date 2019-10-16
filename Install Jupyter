@@ -1,0 +1,11 @@
+Install jupyter from terminal / Command prompt:
+    
+    * pip install jupyther
+    
+        ( alternative way if the above doesnt work: python -m pip install jupyter)
+        
+Run jupyter from terminal / Command prompt:
+    
+    * jupyter notebook
+        
+         ( alternative way if the above doesn't work: python -m jupyter)
